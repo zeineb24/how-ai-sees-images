@@ -53,3 +53,10 @@ Example output:
 - Uvicorn
 
 ---
+## How to run locally
+
+### Install dependencies
+```bash
+pip install -r requirements.txt
+```
+
