@@ -43,82 +43,31 @@ Example output:
 }
 
 
-Tech stack
+## Tech stack
 
-Python
-
-FastAPI
-
-Pillow
-
-NumPy
-
-Uvicorn
-
-How to run locally
-Install dependencies
-pip install -r requirements.txt
-
-Start the server
-uvicorn app:app --reload
-
-Open the interactive API documentation
-http://127.0.0.1:8000/docs
-
-
-You can upload images and test the API directly from the browser.
-
-Available endpoints
-GET /health
-
-Simple health check to verify that the server is running.
-
-POST /analyze-image
-
-Upload an image and receive basic visual analysis (brightness, contrast, lighting).
-
-What this project demonstrates
-
-Building a clean backend API with FastAPI
-
-Handling image uploads safely
-
-Performing basic computer vision analysis
-
-Returning structured, interpretable JSON outputs
-
-Writing simple and readable backend code
-
-This project serves as a foundation that can be easily extended.
-
-Possible extensions
-
-Add a lightweight image classifier
-
-Compare AI perception vs human description
-
-Highlight uncertainty in low-quality images
-
-Extend to multimodal analysis (image + text)
-
-License
-
-MIT License
-
+- Python
+- FastAPI
+- Pillow
+- NumPy
+- Uvicorn
 
 ---
 
-## ✅ Final confirmation
-This `README.md` now includes:
-- Tech stack ✅  
-- How to run locally ✅  
-- Endpoints ✅  
-- What the project demonstrates ✅  
-- Possible extensions ✅  
-- License ✅  
+## How to run locally
 
-You should **commit this file and stop here** for this project.  
-It is **clean, complete, and recruiter-ready**.
+### Install dependencies
+```bash
+pip install -r requirements.txt
+### Start the server
+uvicorn app:app --reload
 
-When you’re ready, the *next step* is planning **Project #2 (LLM-based)** — but this one is officially done ✅
+### Open the interactive API documentation
+http://127.0.0.1:8000/docs
+
+
+You can upload images and test the API directly from the browse
+
+##License
+
+MIT License
 
