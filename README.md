@@ -1,6 +1,5 @@
 # how-ai-sees-images
 
-
 A beginner-friendly computer vision API that shows **how an AI system perceives an image**, using simple visual signals such as brightness and contrast.
 
 This project is intentionally simple and focuses on **interpretability** rather than complex models.
@@ -9,7 +8,7 @@ This project is intentionally simple and focuses on **interpretability** rather 
 
 ## Why this project exists
 
-Most AI demos jump directly to predictions.
+Most AI demos jump directly to predictions.  
 This project takes a step back and answers a more basic question:
 
 > *What visual information does an AI see before making a decision?*
@@ -28,20 +27,6 @@ You upload an image, and the API returns:
 - brightness level
 - contrast level
 - a simple interpretation of lighting conditions
-
-Example output:
-
-```json
-{
-  "width": 640,
-  "height": 427,
-  "stats": {
-    "brightness": 120.6,
-    "contrast": 66.8,
-    "lighting": "Normal"
-  }
-}
-
 
 
 
