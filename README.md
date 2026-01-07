@@ -43,3 +43,13 @@ Example output:
   }
 }
 ```
+
+## Tech stack
+
+- Python
+- FastAPI
+- Pillow
+- NumPy
+- Uvicorn
+
+---
