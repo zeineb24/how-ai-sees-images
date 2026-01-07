@@ -92,6 +92,7 @@ Returning structured, interpretable JSON outputs
 Writing simple and readable backend code
 
 This project serves as a foundation that can be easily extended.
+
 ---
 ## Possible extensions
 
@@ -102,6 +103,7 @@ Compare AI perception vs human description
 Highlight uncertainty in low-quality images
 
 Extend to multimodal analysis (image + text)
+
 ---
 # License
 
