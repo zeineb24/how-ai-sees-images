@@ -43,31 +43,5 @@ Example output:
 }
 
 
-## Tech stack
 
-- Python
-- FastAPI
-- Pillow
-- NumPy
-- Uvicorn
-
----
-
-## How to run locally
-
-### Install dependencies
-```bash
-pip install -r requirements.txt
-### Start the server
-uvicorn app:app --reload
-
-### Open the interactive API documentation
-http://127.0.0.1:8000/docs
-
-
-You can upload images and test the API directly from the browse
-
-##License
-
-MIT License
 
